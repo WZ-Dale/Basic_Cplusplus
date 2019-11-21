@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    char c = 'a';
+    char c[] = "abc";
 
     char *p = &c;
     const char *cp = &c;
